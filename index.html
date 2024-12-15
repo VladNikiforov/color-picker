@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" type="text/css" href="style.css" />
+    <title>HSL Color Picker</title>
+  </head>
+
+  <body>
+    <p><b>:&#41;</b></p>
+    <h1 id="text"></h1>
+    <div class="slider-container">
+      <div class="slider">
+        <label for="hue">Hue:</label>
+        <input id="hue" type="range" min="0" max="360" value="180" />
+        <span class="value" id="hue-value">180°</span>
+      </div>
+      <div class="slider">
+        <label for="saturation">Saturation:</label>
+        <input id="saturation" type="range" min="0" max="100" value="50" />
+        <span class="value" id="saturation-value">50%</span>
+      </div>
+      <div class="slider">
+        <label for="lightness">Lightness:</label>
+        <input id="lightness" type="range" min="0" max="100" value="50" />
+        <span class="value" id="lightness-value">50%</span>
+      </div>
+    </div>
+    <script src="script.js"></script>
+  </body>
+</html>
